@@ -1,26 +1,74 @@
 .banner {
-	background-image: linear-gradient(0deg, rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(../../images/banner-1.jpeg);
+	background-image: url(../../images/banner-1.jpeg);
 	color: white;
-	padding:  150px 0;
+	padding:  0px 0;
 	background-size: 	cover;
 	background-position:  center;
+	position: absolute;
+	width: 934px;
+	height: 553px;
+	left: 415px;
 }
-
-.banner h1{
-	font-family: 'montserrat', sans-serif;
-	font-weight:  700;
-	font-size: 56px;
-	color: white;
+.banner-blur-white {
+	width: 494px;
+    height: 553px;
+    background: rgba(255,255,255,0.72);
+    position: absolute;
+    top: -50px;
+    left: -287px;
+    backdrop-filter: blur(5px);
 	line-height: 20px;
 	letter-spacing: 2px;
 	margin-left: 40px;
 }
-.banner p{
-	font-family: 'Merriweather', serif;
-	font-size:  16px;
-	color: white;
+
+.banner-blur-white-small {
+	position: absolute;
+	width: 294px;
+    height: 148px;
+    left: 606px;
+    top: 374px;
+	background: rgba(255, 255, 255, 0.72);
+	backdrop-filter: blur(5px);
+}
+
+.banner-blur-white-small h2 {
+	font-family: 'montserrat', sans-serif;
+	line-height: 120%;
+	font-weight: 500;
+	position: absolute;
+	top: -25px;
+	left: 15px;
+	font-size: 36px;
+
+}
+.banner-blur-white-small p {
+	font-family: 'montserrat', sans-serif;
+	color: black;
+	font-size: 24px;
+	position: absolute;
+	top: 89px;
+	left: 15px;
+}
+.banner-blur-white h1{
+	font-family: 'montserrat', sans-serif;
+	font-weight:  700;
+	font-size: 56px;
+	color: black;
+	line-height: 120%;
+	letter-spacing: 2px;
 	margin-left: 40px;
-	margin-bottom: 40px;
+
+}
+.banner-blur-white p{
+	font-family: 'montserrat', sans-serif;
+	font-size:  20px;
+	color: gray;
+	line-height: 150%;
+	margin-left: 38px;
+    margin-bottom: 34px;
+    margin-right: 120px;
+
 }
 /*This is Banner of Carousel*/
 
@@ -31,7 +79,10 @@
 	width: 400px;
   	height: 400px;
   	margin: 0px;
-	background-position:  center;
+  	position: relative;
+  	left: 40px;
+  	top: 466px;
+	
 }
 .bannercarousel h1{
 	font-family: 'montserrat', sans-serif;
@@ -50,3 +101,35 @@
 	width: 350px;
 	margin-left: 40px;
 	color: #898989;
+}
+
+.bannercarousel2 {
+	background: rgba(216, 226, 220, 0.65);
+	backdrop-filter: blur(50px);
+	color: white;
+	width: 400px;
+  	height: 400px;
+  	margin: 0px;
+  	position: relative;
+  	left: 40px;
+  	top: 500px;
+	
+}
+.bannercarousel2 h1{
+	font-family: 'montserrat', sans-serif;
+	font-weight:  700;
+	font-size: 56px;
+	color: black;
+	line-height: 60px;
+	letter-spacing: 2px;
+	margin-left: 40px;
+}
+.bannercarousel2 p{
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	width: 350px;
+	margin-left: 40px;
+	color: #898989;
+}
